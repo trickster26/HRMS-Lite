@@ -1,0 +1,2 @@
+# Start of dummy requirements
+# Real requirements are in backend/requirements.txt
