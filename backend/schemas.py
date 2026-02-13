@@ -23,7 +23,7 @@ class Attendance(AttendanceBase):
 
 class EmployeeBase(BaseModel):
     employee_id: str
-    name: str
+    full_name: str
     email: EmailStr
     department: str
 

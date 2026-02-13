@@ -13,7 +13,7 @@ class Employee(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     employee_id = Column(String(50), unique=True, index=True, nullable=False)
-    name = Column(String(100), nullable=False)
+    full_name = Column(String(100), nullable=False)
     email = Column(String(100), unique=True, index=True, nullable=False)
     department = Column(String(50), nullable=False)
     
